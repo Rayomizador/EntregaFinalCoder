@@ -9,6 +9,30 @@
   </head>
   <body>
     <h1 class="text-center my-5">Cierre diario de caja</h1>
+    <form id="cierreCajaForm">
+      <div class="mb-3">
+        <label for="ventas" class="form-label">Venta el día en efectivo</label>
+        <input type="number" class="form-control" id="Vefectivo" required>
+      </div>
+      <div class="mb-3">
+        <label for="gastos" class="form-label">Venta con tarjeta</label>
+        <input type="number" class="form-control" id="Vtarjeta" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Venta Total</button>
+    </form>
+   
+   
+    <table class="table mt-5" id="resultadosTable">
+      <thead>
+        <tr>
+          <th>Concepto</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody> </tbody>
+    </table>
+
+
   </body>
 </html>
     
