@@ -15,7 +15,7 @@ document.getElementById('cierreCajaForm').addEventListener('submit', function (e
     return total;
   };
 
-
+  const total = guardarVentasDelDia(Vtarjeta, Vefectivo);
   const Resultado = document.getElementById('Resultado').getElementsByTagName('tbody')[0];
   Resultado.innerHTML = `
     <tr>

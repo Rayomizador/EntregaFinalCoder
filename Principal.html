@@ -10,28 +10,29 @@
   <body>
     <h1 class="text-center my-5">Cierre diario de caja</h1>
     <form id="cierreCajaForm">
-      <div class="mb-3">
-        <label for="ventas" class="form-label">Venta del día en efectivo</label>
-        <input type="number" class="form-label" id="Vefectivo" required>
+      <div>
+        <label for="Vtarjeta">Ventas con Tarjeta:</label>
+        <input type="number" step="0.01" id="Vtarjeta" required>
       </div>
-      <div class="mb-3">
-        <label for="ventastarjeta" class="form-label">Venta con tarjeta</quired>
-          <input type = "number" class="form-label" id="Vtarjeta" required>
+      <div>
+        <label for="Vefectivo">Ventas en Efectivo:</label>
+        <input type="number" step="0.01" id="Vefectivo" required>
       </div>
-      <button type="submit" class="btn btn-primary">Venta Total</button>
+      <button type="submit">Guardar Cierre de Caja</button>
     </form>
   
-    <table class="table mt-5" id="cierreCajaForm">
-      <thead>
-        <tr>
-          <th>Venta</th>
-          <th>del dia</th>
-        </tr>
-      </thead>
-      <tbody>
-      
-      </tbody>
-    </table>
+    
+<h3>Resumen de Ventas</h3>
+<table id="Resultado" border="1">
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Monto</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+  </tbody>
   </div>
  </body>
 </html>
