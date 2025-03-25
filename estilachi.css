@@ -1,0 +1,21 @@
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+.table-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.total-row {
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
