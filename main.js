@@ -21,3 +21,5 @@ document.getElementById('cierreCajaForm').addEventListener('submit', function (e
       </tr>
     `;
   });
+
+  
